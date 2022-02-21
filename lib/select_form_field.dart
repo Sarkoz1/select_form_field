@@ -213,14 +213,14 @@ class SelectFormField extends FormField<String> {
                   labelText: labelText,
                   icon: state._icon ?? icon,
                   hintText: hintText,
-                  suffixIcon: Container(
-                    width: 10,
-                    margin: EdgeInsets.all(0),
-                    child: TextButton(
-                      onPressed: () {},
-                      child: Icon(Icons.arrow_drop_down),
-                    ),
-                  ),
+//                   suffixIcon: Container(
+//                     width: 10,
+//                     margin: EdgeInsets.all(0),
+//                     child: TextButton(
+//                       onPressed: () {},
+//                       child: Icon(Icons.arrow_drop_down),
+//                     ),
+//                   ),
                 ));
             effectiveDecoration.applyDefaults(
               Theme.of(field.context).inputDecorationTheme,
